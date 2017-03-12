@@ -6,11 +6,13 @@ import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { EchoBotComponent } from './echo-bot/echo-bot.component';
+import { ChatWindowComponent } from './chat-window/chat-window.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EchoBotComponent
+    EchoBotComponent,
+    ChatWindowComponent
   ],
   imports: [
     BrowserModule,
